@@ -52,11 +52,6 @@ body {
   margin: 0;
 }
 
-#content h4 {
-  font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
-  margin-top: 20px;
-}
-
 #content .byline, #content .byline a, #content .note {
   font-size: 10px;
   color: #aaa;
@@ -95,4 +90,9 @@ body {
 
 .post + .post {
   margin-top: 50px;
+}
+
+.gap-20 {
+	width:100%;
+	height:20px;
 }
