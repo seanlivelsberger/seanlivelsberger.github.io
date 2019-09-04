@@ -1,0 +1,169 @@
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta charset="utf-8">
+    <title>Questions - Sean Livelsberger</title>
+  </head>
+  <body>
+    <script>
+      $(function(){
+        $("#menu").load("/modules/nav.html");
+      });
+    </script>
+    <div id="menu"></div>
+
+
+
+    <div id="content">
+
+      <!-- <p class="notop">I am a person who greatly enjoys rating, ranking, evaluating, and debating culture. Around 2014, I became rather meticulous in tracking the culture that I was consuming. The form in which I have kept track of things has changed over time. However, in its latest iteration, I am not actually rating each item on a scale, but rather am ranking items against other items within the same release year for that medium. Below is the google sheet that I use to track everything for music, tv, and movies.</p>
+
+      <iframe width=800 height=250 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQljA_eHPR7GiIge_vKqAL4yTBTyxFCBfwJurfbdSg7lZSVbRlQQipxySQ4YQtX5yp1NvNSBM74S3Mz/pubhtml?widget=true&amp;headers=false"></iframe>
+
+      <p>As I also generally enjoy making ranked lists, below are lists of my favorite items for a couple of cultural categories.</p>
+
+      <h3>TV Shows</h3>
+      <ol>
+          <li>Peep Show</li>
+          <li>The Wire</li>
+          <li>It's Always Sunny in Philadelphia</li>
+          <li>Scrubs</li>
+          <li>The Simpsons</li>
+          <li>Seinfeld</li>
+          <li>Curb Your Enthusiasm</li>
+          <li>Band of Brothers</li>
+          <li>Firefly</li>
+          <li>PEN15</li>
+          <li>Narcos</li>
+          <li>Futurama</li>
+          <li>Preacher</li>
+          <li>Freaks and Geeks</li>
+      </ol>
+
+      <h3>Movies</h3>
+      <ol>
+          <li>Inglorious Basterds</li>
+          <li>Roadhouse</li>
+          <li>Kill Bill Vol. 1</li>
+          <li>Wayne's World</li>
+          <li>Raider's of the Lost Ark</li>
+          <li>The Thing</li>
+          <li>Kill Bill Vol. 2</li>
+          <li>The Waterboy</li>
+          <li>Billy Madison</li>
+          <li>The Blues Brothers</li>
+          <li>Free Solo</li>
+          <li>The Hateful Eight</li>
+          <li>Hot Fuzz</li>
+      </ol>
+
+      <h3>Music (Albums)</h3>
+      <ol>
+          <li>Prince - Purple Rain</li>
+          <li>Sade - Diamond Life</li>
+          <li>Sam Cooke - Mr. Soul</li>
+          <li>Nirvana - Nevermind</li>
+          <li>Common - Be</li>
+          <li>Michael Jackson - Thriller</li>
+          <li>2Pac - All Eyez On Me</li>
+          <li>Dr. Dre - The Chronic</li>
+          <li>Kanye West - Graduation</li>
+          <li>Sade - Promise</li>
+          <li>The Alan Parsons Project - I Robot</li>
+          <li>SWV - It's About Time</li>
+          <li>Otis Redding - Pain in My Heart</li>
+          <li>Kid Cudi - Man on the Moon: The End of Day</li>
+          <li>Wu-Tang Clan - Enter The Wu-Tang (36 Chambers)</li>
+          <li>Florence + The Machine - Ceremonials</li>
+          <li>The Doors - The Doors</li>
+          <li>The Doors - L.A. Woman</li>
+          <li>N.W.A. - Straight Outta Compton</li>
+          <li>Kanye West - The College Dropout</li>
+          <li>Kanye West - My Beautiful Dark Twisted Fantasy</li>
+          <li>Jimi Hendrix - Are You Experienced</li>
+          <li>Linkin Park - Hybrid Theory</li>
+          <li>Common - Finding Forever</li>
+          <li>Bruce Springsteen - Born in the U.S.A.</li>
+          <li>Gipsy Kings - Gipsy Kings</li>
+          <li>Frank Sinatra - In the Wee Small Hours</li>
+          <li>John Coltrane - A Love Supreme</li>
+          <li>Carly Rae Jepsen - Emotion</li>
+          <li>Whitney - Light Upon The Lake</li>
+          <li>Janet Jackson - Control</li>
+      </ol>
+
+      <h3>Music (Artists)</h3>
+      <ol>
+          <li>Prince</li>
+          <li>Sade</li>
+          <li>Sam Cooke</li>
+          <li>Nirvana</li>
+          <li>Common</li>
+          <li>Michael Jackson</li>
+          <li>Kanye West</li>
+          <li>Otis Redding</li>
+          <li>2Pac</li>
+          <li>Dr. Dre</li>
+          <li>Frank Sinatra</li>
+          <li>The Alan Parsons Project</li>
+          <li>SWV</li>
+          <li>Linkin Park</li>
+          <li>Marvin Gaye</li>
+          <li>Kid Cudi</li>
+          <li>Jimi Hendrix</li>
+          <li>Snoop Dogg</li>
+          <li>Madonna</li>
+          <li>Florence + The Machine</li>
+          <li>Best Coast</li>
+          <li>Bruce Springsteen</li>
+          <li>blink-182</li>
+          <li>Wu-Tang Clan</li>
+          <li>Nas</li>
+          <li>Stevie Wonder</li>
+          <li>Gipsy Kings</li>
+          <li>N.W.A.</li>
+          <li>OutKast</li>
+          <li>Adele</li>
+          <li>Aaliyah</li>
+          <li>Janet Jackson</li>
+          <li>Carly Rae Jepsen</li>
+          <li>The Notorious B.I.G.</li>
+          <li>The D.O.C.</li>
+          <li>John Coltrane</li>
+          <li>TLC</li>
+          <li>Heart</li>
+          <li>The Offspring</li>
+          <li>Buena Vista Social Club</li>
+          <li>Whitney</li>
+      </ol>
+
+      <h3>Graphic Novels</h3>
+      <ol>
+          <li>Preacher</li>
+          <li>Watchmen</li>
+          <li>Persepolis</li>
+          <li>The Boys</li>
+          <li>Death Note</li>
+          <li>Y: The Last Man</li>
+          <li>The Walking Dead</li>
+          <li>Black Hole</li>
+          <li>Maus</li>
+          <li>The Crow</li>
+      </ol>
+
+      <h3>Books</h3>
+      <ol>
+          <li>A Song of Ice and Fire</li>
+          <li>Battle Royale</li>
+          <li>It</li>
+          <li>Freakonomics: A Rogue Economist Explores the Hidden Side of Everything</li>
+          <li>Radical Markets: Uprooting Capitalism and Democracy for a Just Society</li>
+          <li>1984</li>
+          <li>Between the World and Me</li>
+          <li>Confessions of an Economic Hitman</li>
+      </ol> -->
+
+    </div>
+  </body>
+</html>
