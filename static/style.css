@@ -42,8 +42,8 @@ body {
 
 #content {
   margin-top: 50px;
-  margin-right: 150px;
-  float: right;
+  margin-left: 250px;
+  float: left;
   width: 500px;
 }
 
